@@ -6,11 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81e78f45-67d9-4fe2-a6a9-96b657bb8e39" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../CalculadoraIMC/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculadoraIMC/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/ed/ifsp/arq/conversortemperatura/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/ed/ifsp/arq/conversortemperatura/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-    </list>
+    <list default="true" id="81e78f45-67d9-4fe2-a6a9-96b657bb8e39" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,9 +43,6 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -131,17 +124,13 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="29" y="115" key="#PSD" timestamp="1620163398611">
+    <state x="292" y="123" key="FileChooserDialogImpl" timestamp="1620163230846">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
-    <state x="29" y="115" key="#PSD/0.0.1024.738@0.0.1024.738" timestamp="1620163398611" />
-    <state x="221" y="0" key="#app" timestamp="1620163291532">
+    <state x="292" y="123" key="FileChooserDialogImpl/0.0.1024.738@0.0.1024.738" timestamp="1620163230846" />
+    <state x="175" y="59" key="search.everywhere.popup" timestamp="1620161758231">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
-    <state x="221" y="0" key="#app/0.0.1024.738@0.0.1024.738" timestamp="1620163291532" />
-    <state x="292" y="123" key="FileChooserDialogImpl" timestamp="1620507797561">
-      <screen x="0" y="0" width="1024" height="738" />
-    </state>
-    <state x="292" y="123" key="FileChooserDialogImpl/0.0.1024.738@0.0.1024.738" timestamp="1620507797561" />
+    <state x="175" y="59" key="search.everywhere.popup/0.0.1024.738@0.0.1024.738" timestamp="1620161758231" />
   </component>
 </project>

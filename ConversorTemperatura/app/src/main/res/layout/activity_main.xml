@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/text_tempFahrenheit"
+        android:id="@+id/text_temperatura"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -31,7 +31,7 @@
         android:text="Converter para Celcius" />
 
     <TextView
-        android:id="@+id/view_saida_Celcius"
+        android:id="@+id/view_saida_Conversao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

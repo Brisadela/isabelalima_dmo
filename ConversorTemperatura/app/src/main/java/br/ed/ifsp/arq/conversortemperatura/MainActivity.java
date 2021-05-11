@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
     private EditText mTemperaturaText;
-    private TextView mCelsiusView;
+    private TextView mConversaoView;
     private Button mConverterButton;
 
     @Override
@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mTemperaturaText = findViewById(R.id.text_tempFahrenheit);
-        mCelsiusView = findViewById(R.id.view_saida_Celcius);
+        mTemperaturaText = findViewById(R.id.text_temperatura);
+        mConversaoView = findViewById(R.id.view_saida_Conversao);
         mConverterButton = findViewById(R.id.button_converterC);
 
         mConverterButton.setOnClickListener(this);
@@ -41,9 +41,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         if(temperaturaF != 0.0){
             celcius = (temperaturaF - 32)/1.8;
-            mCelsiusView.setText(String.format("%.2f %s", celcius,"C° "));
+            mConversaoView.setText(String.format("%.2f %s", celcius,"°C "));
         }else {
-            mCelsiusView.setText("Dados informados são inválidos.");
+            mConversaoView.setText("Dados informados são inválidos.");
 
         }
     }

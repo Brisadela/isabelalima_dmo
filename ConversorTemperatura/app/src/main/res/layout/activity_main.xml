@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+
+
+    <EditText
+        android:id="@+id/text_temperatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:inputType="numberDecimal"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:textColor="#191970"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/button_converterC"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_weight="1"
+        android:layout_marginStart="10dp"
+        android:textColor="#000"
+        android:padding="8dp"
+        android:backgroundTint="#D3D3D3"
+        android:text="Celcius" />
+
+    <Button
+        android:id="@+id/button_converterF"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:layout_marginStart="10dp"
+        android:textColor="#000"
+        android:padding="8dp"
+        android:backgroundTint="#D3D3D3"
+        android:text="Fahrenheit" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/view_saida_Conversao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:textColor="#EF6C00"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -6,9 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81e78f45-67d9-4fe2-a6a9-96b657bb8e39" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="81e78f45-67d9-4fe2-a6a9-96b657bb8e39" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +42,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ConversorTemperatura" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -126,29 +127,17 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="292" y="123" key="FileChooserDialogImpl" timestamp="1620163230846">
+    <state x="29" y="115" key="#PSD" timestamp="1620163398611">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
-    <state x="292" y="123" key="FileChooserDialogImpl/0.0.1024.738@0.0.1024.738" timestamp="1620163230846" />
-    <state width="981" height="182" key="GridCell.Tab.0.bottom" timestamp="1620769879201">
+    <state x="29" y="115" key="#PSD/0.0.1024.738@0.0.1024.738" timestamp="1620163398611" />
+    <state x="221" y="0" key="#app" timestamp="1620163291532">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
-    <state width="981" height="182" key="GridCell.Tab.0.bottom/0.0.1024.738@0.0.1024.738" timestamp="1620769879201" />
-    <state width="981" height="182" key="GridCell.Tab.0.center" timestamp="1620769879201">
+    <state x="221" y="0" key="#app/0.0.1024.738@0.0.1024.738" timestamp="1620163291532" />
+    <state x="292" y="123" key="FileChooserDialogImpl" timestamp="1620768157778">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
-    <state width="981" height="182" key="GridCell.Tab.0.center/0.0.1024.738@0.0.1024.738" timestamp="1620769879201" />
-    <state width="981" height="182" key="GridCell.Tab.0.left" timestamp="1620769879201">
-      <screen x="0" y="0" width="1024" height="738" />
-    </state>
-    <state width="981" height="182" key="GridCell.Tab.0.left/0.0.1024.738@0.0.1024.738" timestamp="1620769879201" />
-    <state width="981" height="182" key="GridCell.Tab.0.right" timestamp="1620769879201">
-      <screen x="0" y="0" width="1024" height="738" />
-    </state>
-    <state width="981" height="182" key="GridCell.Tab.0.right/0.0.1024.738@0.0.1024.738" timestamp="1620769879201" />
-    <state x="175" y="59" key="search.everywhere.popup" timestamp="1620161758231">
-      <screen x="0" y="0" width="1024" height="738" />
-    </state>
-    <state x="175" y="59" key="search.everywhere.popup/0.0.1024.738@0.0.1024.738" timestamp="1620161758231" />
+    <state x="292" y="123" key="FileChooserDialogImpl/0.0.1024.738@0.0.1024.738" timestamp="1620768157778" />
   </component>
 </project>

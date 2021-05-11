@@ -6,7 +6,9 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81e78f45-67d9-4fe2-a6a9-96b657bb8e39" name="Default Changelist" comment="" />
+    <list default="true" id="81e78f45-67d9-4fe2-a6a9-96b657bb8e39" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,6 +130,22 @@
       <screen x="0" y="0" width="1024" height="738" />
     </state>
     <state x="292" y="123" key="FileChooserDialogImpl/0.0.1024.738@0.0.1024.738" timestamp="1620163230846" />
+    <state width="981" height="182" key="GridCell.Tab.0.bottom" timestamp="1620769879201">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="981" height="182" key="GridCell.Tab.0.bottom/0.0.1024.738@0.0.1024.738" timestamp="1620769879201" />
+    <state width="981" height="182" key="GridCell.Tab.0.center" timestamp="1620769879201">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="981" height="182" key="GridCell.Tab.0.center/0.0.1024.738@0.0.1024.738" timestamp="1620769879201" />
+    <state width="981" height="182" key="GridCell.Tab.0.left" timestamp="1620769879201">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="981" height="182" key="GridCell.Tab.0.left/0.0.1024.738@0.0.1024.738" timestamp="1620769879201" />
+    <state width="981" height="182" key="GridCell.Tab.0.right" timestamp="1620769879201">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="981" height="182" key="GridCell.Tab.0.right/0.0.1024.738@0.0.1024.738" timestamp="1620769879201" />
     <state x="175" y="59" key="search.everywhere.popup" timestamp="1620161758231">
       <screen x="0" y="0" width="1024" height="738" />
     </state>

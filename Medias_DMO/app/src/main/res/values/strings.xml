@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Medias_DMO</string>
+    <string name="Calcular_Media">Calcular Media</string>
+    <string name="hint_valor1">Digite Valor1</string>
+    <string name="hint_valor_2">valor_2</string>
+    <string name="hint_valor2">Digite valor2</string>
+    <string name="hint_valor3">Digite valor3</string>
+    <string name="hint_valor4">Digite valor4</string>
+    <string name="hint_valor5">Digite valor_5</string>
+
+    <string name="msg_Calculomedia_sucess"> Media</string>
+    <string name="msg_Calculomedia_erro">Erro. insira todos valores</string>
+
+
+</resources>

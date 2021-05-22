@@ -70,3 +70,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 }
+
+/*
+A versão 1 do projeto não pode ser compilada porque não existe o diretório de recursos de layout.
+A versão 2 do projeto está funcionando e estruturada corretamente, contudo, o tratamento de
+exceção aplicado não está adequado, visto que o usuário pode solicitar ao app a conversar do
+zero graus para outra medida e o aplicativo não aceita essa indicação.
+
+Nota: 7,5
+
+*/

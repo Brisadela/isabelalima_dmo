@@ -29,6 +29,9 @@ public class MediaPonderada implements MediaStrategy{
     @Override
     public Double calcularMedia() {
         //TODO implementar método
-        return null;
+        Double mp = 0D;
+        int sum = weight_value1 + weight_value2 + weight_value3 + weight_value4 + weight_value5;
+        mp = (value1 * weight_value1 ) +(value2 * weight_value2) + (value3 * weight_value3) + (value4 * weight_value4) + (value5 * weight_value5);
+        return mp/sum;
     }
 }

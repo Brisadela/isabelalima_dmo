@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/constraint_layout"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#C5D8E8"
     android:padding="8dp"
-    tools:context=".view.MainActivity">
-
+    tools:context=".view.MediaPonderadaActivity">
 
     <EditText
-        android:id="@+id/edit_valor1"
+        android:id="@+id/edit_peso1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:background="@color/white"
-        android:hint="@string/hint_valor"
+        android:hint="@string/hint_peso"
         android:inputType="number"
         android:padding="4dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,93 +22,69 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/edit_valor2"
+        android:id="@+id/edit_peso2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:background="@color/white"
-        android:hint="@string/hint_valor"
+        android:hint="@string/hint_peso"
         android:inputType="number"
         android:padding="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_valor1" />
+        app:layout_constraintTop_toBottomOf="@+id/edit_peso1" />
 
     <EditText
-        android:id="@+id/edit_valor3"
+        android:id="@+id/edit_peso3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:background="@color/white"
-        android:hint="@string/hint_valor"
+        android:hint="@string/hint_peso"
         android:inputType="number"
         android:padding="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_valor2" />
+        app:layout_constraintTop_toBottomOf="@+id/edit_peso2" />
 
     <EditText
-        android:id="@+id/edit_valor4"
+        android:id="@+id/edit_peso4"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:background="@color/white"
-        android:hint="@string/hint_valor"
+        android:hint="@string/hint_peso"
         android:inputType="number"
         android:padding="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_valor3" />
+        app:layout_constraintTop_toBottomOf="@+id/edit_peso3" />
 
     <EditText
-        android:id="@+id/edit_valor5"
+        android:id="@+id/edit_peso5"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:background="@color/white"
-        android:hint="@string/hint_valor"
+        android:hint="@string/hint_peso"
         android:inputType="number"
         android:padding="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_valor4" />
+        app:layout_constraintTop_toBottomOf="@+id/edit_peso4" />
+
+    
 
     <Button
-        android:id="@+id/button_Media"
-        android:layout_width="132dp"
-        android:layout_height="46dp"
+        android:id="@+id/button_MediaPO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="64dp"
         android:backgroundTint="#FF6200EE"
-        android:text="@string/Calcular_MediaA"
+        android:text="@string/Calcular_Media"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button_MediaP"
-        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/button_MediaH"
-        android:layout_width="130dp"
-        android:layout_height="46dp"
-        android:backgroundTint="#FF6200EE"
-        android:text="@string/Calcular_MediaH"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/button_MediaP"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/button_MediaP" />
-
-    <Button
-        android:id="@+id/button_MediaP"
-        android:layout_width="130dp"
-        android:layout_height="46dp"
-        android:backgroundTint="#FF6200EE"
-        android:text="@string/Calcular_MediaP"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button_MediaH"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/button_Media"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/button_Media" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TempoEstado</string>
+    <string name="Tempo_Execução">Tempo de Execução</string>
+    <string name="Tempo_Criação">Tempo de Criação: </string>
+    <string name="Tempo_Pausado">Tempo pausado(paused): </string>
+    <string name="Tempo_Parado">Tempo parado (stopped): </string>
+    <string name="view_tempo_execução"> </string>
+    <string name="view_tempo_pausado"> </string>
+    <string name="view_tempo_parado"> </string>
+
+
+
+
+</resources>

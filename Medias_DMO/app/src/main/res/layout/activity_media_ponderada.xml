@@ -73,7 +73,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit_peso4" />
 
-    
+
 
     <Button
         android:id="@+id/button_MediaPO"

@@ -210,3 +210,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
          mSaidaInicioView.setText("entrou ");
     }
 }
+/*
+Aplicativo não cumpre os requisitos. Observa-se que não foram utilizados conceitos de orientação
+a objetos para a realização da lógica de programação.
+
+Nota: 3,0
+ */

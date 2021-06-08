@@ -15,7 +15,10 @@ public class MediaController {
         MediaPonderada ponderada = null;
         //TODO implementar o restante do método
         ponderada = new MediaPonderada(n1,n2,n3,n4,n5,p1,p2,p3,p4,p5);
+
+        /* Qual o significado dessa chamada? */
         ponderada.calcularMedia();
+
         return media(ponderada);
     }
 
@@ -24,6 +27,8 @@ public class MediaController {
         //TODO implementar o restante do método
 
         aritmetica = new MediaAritmetica(n1,n2,n3,n4,n5);
+
+        /* Qual o significado dessa chamada? */
         aritmetica.calcularMedia();
         return media(aritmetica);
     }
@@ -33,7 +38,10 @@ public class MediaController {
         MediaHarmonica harmonica = null;
         //TODO implementar o restante do método
         harmonica = new MediaHarmonica(values);
+
+        /* Qual o significado dessa chamada? */
         harmonica.calcularMedia();
+
         return media(harmonica);
     }
 

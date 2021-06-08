@@ -209,3 +209,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
 }
+
+/*
+Muito bom! Parabéns.
+
+Atenção para sua implementação, observe que está repetindo código em vários locais, isso é um
+erro e prejudica a manutenção do software.
+
+Observo dificuldade com a questão da orientação a objetos no sistema, percebi a chamada do método
+calcularMedia() em todos os métodos da controller, essa chamada não gera resultado e apenas
+aumenta a carga de processamento do sistema. Sugiro que revise os conceitos de orientação a objetos
+principalmente o uso de polimorfismo.
+
+Encorajo o uso de um arquivo de constantes ao invés de indicar valores chaves diretamente no código
+fonte. A chance de cometer erros e não conseguir recuperar dados de uma activity para outra aumenta
+muito.
+
+Nota 9,5
+ */

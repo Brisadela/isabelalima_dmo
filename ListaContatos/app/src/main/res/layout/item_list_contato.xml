@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/text_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/contato_nome"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/img_icon_favorite"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/text_apelido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/apelido"
+        android:textColor="@color/purple_500"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/text_nome"
+        app:layout_constraintTop_toBottomOf="@+id/text_nome"/>
+
+    <TextView
+        android:id="@+id/text_telefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/telefone"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/text_apelido"
+        app:layout_constraintTop_toBottomOf="@+id/text_apelido"/>
+
+    <TextView
+        android:id="@+id/text_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/email"
+        android:textColor="@color/purple_500"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/text_telefone"
+        app:layout_constraintTop_toBottomOf="@+id/text_telefone"/>
+
+    <ImageView
+        android:id="@+id/img_icon_favorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:src="@drawable/ic_favorite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_nome" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

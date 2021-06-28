@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MinhasTarefas</string>
+    <string name="add_tarefa">Adicionar nova tarefa</string>
+    <string name="save">Salvar</string>
+    <string name="date">dd/mm/yyyy</string>
+    <string name="success_message">Dados salvos</string>
+    <string name="Pri_Importante">Prioridade: 1</string>
+    <string name="Pri_Urgente">Prioridade: 2</string>
+    <string name="Pri_Emergente">Prioridade: 3</string>
+    <string name="Prio_SemImportancia">Prioridade: 0</string>
+
+    <string name="status_completed">Completo</string>
+    <string name="status_not_completed">InCompleto</string>
+</resources>

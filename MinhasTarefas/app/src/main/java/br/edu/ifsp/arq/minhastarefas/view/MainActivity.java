@@ -204,3 +204,13 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
+/*
+Parabéns gostei bastante da implementação. Destaco que seu interesse em buscar novas formas de interação,
+por exemplo, a interação por gestos com a lista, é muito boa e importante para seu desenvolvimento,
+continue assim! Além disso, a utilização do armazenamento com json ficou muito bom.
+
+Contudo, alguns requisitos não foram atendidos como: lista de tarefas concluídas e não comcluídas,
+tarefa do tipo ligar, remover da lista tarefas concluídas.
+
+Nota: 5,0
+ */
